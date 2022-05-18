@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{06F954D9-3FFA-E4E0-CD43-7C995C5845F3}</ProjectGuid>
+    <ProjectGuid>{2F4B643F-DD5F-0E60-F117-31A839962DDA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,28 +56,30 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerUIManager.cs" />
-    <Compile Include="Assets\Scripts\AbilitySlot.cs" />
-    <Compile Include="Assets\Scripts\InfoBoxUIManager.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\ItemSlot.cs" />
-    <Compile Include="Assets\Scripts\PlayerAbilities.cs" />
-    <Compile Include="Assets\Scripts\TargetUIManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\EnemyStats.cs" />
-    <Compile Include="Assets\Scripts\EnemyMotor.cs" />
-    <Compile Include="Assets\Scripts\ShadowBall.cs" />
-    <Compile Include="Assets\Scripts\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Marker.cs" />
-    <Compile Include="Assets\Scripts\Billboard.cs" />
-    <Compile Include="Assets\Scripts\PlayerStats.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerMotor.cs" />
-    <Compile Include="Assets\Scripts\PlayerInventory.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
-    <Compile Include="Assets\Scripts\ItemAbilities.cs" />
-    <Compile Include="Assets\Scripts\ItemPassives.cs" />
-    <Compile Include="Assets\Scripts\GroundItem.cs" />
+    <Compile Include="Assets\Scripts\Utility\ItemPassives.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerUIManager.cs" />
+    <Compile Include="Assets\Scripts\Utility\AbilitySlot.cs" />
+    <Compile Include="Assets\Scripts\UI\InfoBoxUIManager.cs" />
+    <Compile Include="Assets\Scripts\Utility\CameraController.cs" />
+    <Compile Include="Assets\Scripts\UI\ItemSlot.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerAbilities.cs" />
+    <Compile Include="Assets\Scripts\UI\TargetUIManager.cs" />
+    <Compile Include="Assets\Scripts\Utility\GroundItem.cs" />
+    <Compile Include="Assets\Scripts\Utility\ItemAbilities.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyStats.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyMotor.cs" />
+    <Compile Include="Assets\Scripts\Utility\ShadowBall.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\Utility\Marker.cs" />
+    <Compile Include="Assets\Scripts\UI\Billboard.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\Utility\Item.cs" />
+    <Compile Include="Assets\Scripts\Utility\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMotor.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
+    <Compile Include="Assets\Scripts\UI\Minimap.cs" />
+    <Compile Include="Assets\Scripts\Utility\MinimapTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
